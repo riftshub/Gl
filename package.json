@@ -1,0 +1,23 @@
+{
+  "name": "game-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serves the built game client and hosts the shared world + multiplayer room on one port",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js --prod",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "flying-squid": "npm:@zardoy/flying-squid@^0.0.122",
+    "net-browserify": "github:zardoy/prismarinejs-net-browserify",
+    "vec3": "^0.1.10",
+    "ws": "^8.18.1"
+  }
+}

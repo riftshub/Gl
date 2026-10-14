@@ -1,0 +1,6 @@
+**/node_modules
+client/dist
+client/generated
+server/world
+world
+.git
